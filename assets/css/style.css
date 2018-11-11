@@ -1,0 +1,43 @@
+body{
+background: url("../images/backgroundpic.jpg") no-repeat;
+
+}
+
+
+
+h1{
+    color:white;
+    background: orange;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+#rock1{
+    width: 200px;
+    height: 200px;
+    /* background: url("/unit-4-game/assets/images/rock1.jpg"); */
+}
+
+#rock2{
+
+    width: 200px;
+    height: 200px;
+    /* background: url("/unit-4-game/assets/images/rock2.jpg"); */
+}
+
+#rock3{
+    width: 200px;
+    height: 200px;
+    /* background: url("/unit-4-game/assets/images/rock3.jpg"); */
+}
+
+#rock4{
+    width: 200px;
+    height: 200px;
+    /* background: url("/unit-4-game/assets/images/rock4.jpg"); */
+}

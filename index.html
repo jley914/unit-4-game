@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPG Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--The etxernal css style stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Cristal Collector Game!</h1>
+            <strong>How to Play!</strong>
+            <p class="lead">There is a given random number at the start of the game. </p>
+            <p>Eache one of the four crystals below has a amount given to it.</p>
+            <p> Clicking on them will add a amount of points to the total score.</p>
+            <p>You will win the game by matching your total score to ther randome number, you losee the game if your
+                total score is higher than the total given.</p>
+            <p>The value of each crystal is hidden from you until you click on it </p>
+            <p>Each time the game starts the game will change the value of the cristals.</p>
+        </div>
+    </div>
+    <div id="game-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h1>The Number To Guess:
+
+                        <span id="numberToGuess"></span>
+
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div id="win-loose-tracker">
+                    <div>
+                        <h3>Wins: </h3>
+                        <span id="numWins"></span>
+                    </div>
+                    <div>
+                        <h3>Losses: </h3>
+                        <span id="numLosses"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-3">
+                    <img src="assets/images/rock1.jpg" class="rockImage" id="rock1">
+                </div>
+                <div class="col-sm-3">
+                    <img src="assets/images/rock2.jpg" class="rockImage" id="rock2">
+                </div>
+                <div class="col-sm-3">
+                    <img src="assets/images/rock3.jpg" class="rockImage" id="rock3">
+                </div>
+                <div class="col-sm-3">
+                    <img src="assets/images/rock4.jpg" class="rockImage" id="rock4">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="userTotal">
+                <h3>Your Total Score :
+                    <span id="totalScore"></span>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
